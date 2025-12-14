@@ -4,6 +4,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.common.by import By
 import os
+import time
 #driverpath=r"'/Users/mac/Downloads/chrome-mac-arm64/Google Chrome for Testing.app'"
 # 创建 Chrome 驱动服务
 #service = Service(driverpath)
