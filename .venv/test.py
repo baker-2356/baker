@@ -22,6 +22,8 @@ driver = webdriver.Chrome(service=service)
 
 driver.get("http://www.baidu.com")
 time.sleep(1)
+driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+time.sleep(3)
 baker = driver.find_element(By.ID, "chat-textarea")
 baker.send_keys("bakerfdfd")
 time.sleep(1)
